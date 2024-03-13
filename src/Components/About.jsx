@@ -14,7 +14,7 @@ const About = () => {
       <span>
         <ul className="list-disc text-2xl p-8">
           <h2>Technical Skills</h2>
-          <li>Languages: Swift, Objective-C</li>
+          <li>Languages: Swift, Solidity</li>
           <li>Frameworks: SwifUI,UIKit, Core Data, Core Animation</li>
           <li>Tools: Xcode, Interface Builder, Git</li>
           <li>Design Patterns: MVC, MVVM</li>
