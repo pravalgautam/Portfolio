@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-<div className="mt-16 px-6">
+<div className="mt-16 px-6 h-full w-full">
 <h1 className=" text-[4rem] font-extralight md:text-[8rem] ">
           Hi , I m <br />
           Praval Gautam
