@@ -11,7 +11,7 @@ const Navbar = () => {
           Dliver
         </div>
 
-        <div className="navigation flex sm:space-x-20  space-x-3">
+        <div className="navigation flex  space-x-14">
           <Link to="/" className='text-black font-light hover:text-pink-300'>Home</Link>
           <Link to="/about" className='text-black font-light hover:text-pink-300'>About</Link>
           <Link to="/projects" className='text-black font-light hover:text-pink-300'>Projects</Link>
