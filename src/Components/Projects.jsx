@@ -6,7 +6,7 @@ import BookMyTicketDapp from './BookMyTicketDapp'
 
 const Projects = () => {
   return (
-    <div>
+    <div className='overflow-scroll'>
       <UrbanStride></UrbanStride>
       <DailyInsight></DailyInsight>
       <Peace></Peace>

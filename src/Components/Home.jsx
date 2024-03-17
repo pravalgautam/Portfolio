@@ -2,18 +2,18 @@ import React from 'react'
 
 const Home = () => {
   return (
-  <>
-<h1 className="lg:text-[8rem] md:text-[5rem] text-[6rem] mt-20 mb-16 px-6  ">
+<div className="mt-16 px-6">
+<h1 className=" text-[4rem] font-extralight md:text-[8rem] ">
           Hi , I m <br />
           Praval Gautam
         </h1>
       
-      <div className="name_div flex  p-8">
-        <p className="sm:text-[2rem] text-[1.5rem]">
+
+        <p className=" text-[1.5rem] mt-16">
           I create and design iOS Apps <br></br>and Web Frontend
         </p>
+
 </div>
-</>
   )
 }
 
