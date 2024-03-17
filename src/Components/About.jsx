@@ -2,9 +2,9 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="text-bold text-3xl p-20">
+    <div className="text-bold text-3xl p-2">
       <h1>Who am i? </h1>
-      <span className="text-2xl">
+      <span className="text-xl">
         Hello, I'm Praval Gautam, a passionate iOS developer with a keen eye for
         detail and a commitment to creating engaging and innovative mobile
         applications. I thrive on turning ideas into reality, combining my
@@ -12,7 +12,7 @@ const About = () => {
         glimpse of the projects I've brought to life.
       </span>
       <span>
-        <ul className="list-disc text-2xl p-8">
+        <ul className="list-disc text-xl p-8">
           <h2>Technical Skills</h2>
           <li>Languages: Swift, Solidity</li>
           <li>Frameworks: SwifUI,UIKit, Core Data, Core Animation</li>
@@ -26,7 +26,7 @@ const About = () => {
         <div className="h-8 w-8 rounded-full bg-green-600 animate-ping flex justify-center items-center">
           <div className="h-4 w-4 rounded-full  bg-green-400"></div>
         </div>
-        <h1 className="text-green-400">Available for Work </h1>
+        <h1 className="text-green-400 text-xl">Available for Work </h1>
       </div>
     </div>
   );
