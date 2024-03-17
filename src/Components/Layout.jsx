@@ -6,7 +6,7 @@ import { Fade } from "react-awesome-reveal";
 
 const Layout = ({children}) => {
     return (
-      <div className="MainContainer w-screen h-screen sm:p-28 p-16">
+      <div className="MainContainer w-screen h-screen  p-8">
        
         <div className="infoContainer w-full h-full  bg-white sm:p-8 p-2 shadow-2xl  overflow-scroll" >
         <Fade cascade damping={0.2}>

@@ -3,7 +3,7 @@ import React from 'react'
 const Home = () => {
   return (
   <>
-<h1 className="lg:text-[8rem] md:text-[5rem] text-[3rem] mt-8 ">
+<h1 className="lg:text-[8rem] md:text-[5rem] text-[4rem] mt-32 px-6 ">
           Hi , I m <br />
           Praval Gautam
         </h1>
