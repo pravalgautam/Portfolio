@@ -15,49 +15,47 @@ const About = () => {
       <div className="flex flex-col p-8">
         <h1 className="p-4">Technical Skills</h1>
         <div className="flex space-x-3">
-          <div className="h-12 w-40 bg-red-100 rounded-full flex justify-center items-center animate-bounce">
+          <div className="px-6 p-2 bg-red-100 rounded-full flex justify-center items-center animate-bounce">
             <h1 className="text-lg">Swift</h1>
           </div>
-          <div className="h-12 w-40 bg-yellow-100 rounded-full flex justify-center items-center rotate-12 ">
+          <div className="px-6 bg-yellow-100 rounded-full flex justify-center items-center rotate-12 ">
             <h1 className="text-lg">Solidity</h1>
           </div>
-          <div className="h-12 w-40 bg-pink-100 rounded-full flex justify-center items-center">
-              <h1 className="text-lg">SwifUI</h1>
-            </div>
-            <div className="h-12 w-40 bg-blue-100 rounded-full flex justify-center items-center">
-              <h1 className="text-lg">UIKit</h1>
-            </div>
-            <div className="h-12 w-40 bg-red-100 rounded-full flex justify-center items-center">
-              <h1 className="text-lg">Core Data</h1>
-            </div>
-            <div className="h-12 w-40 bg-green-100 rounded-full flex justify-center items-center">
-              <h1 className="text-lg"> Core Animation</h1>
-            </div>
+          <div className="px-6 bg-pink-100 rounded-full flex justify-center items-center">
+            <h1 className="text-lg">SwifUI</h1>
           </div>
-          <div className="flex py-2 space-x-3">
-          <div className="h-12 w-40 bg-pink-100 rounded-full flex justify-center items-center">
-              <h1 className="text-lg">Figma</h1>
-            </div>
-            <div className="h-12 w-40 bg-blue-100 rounded-full flex justify-center items-center">
-              <h1 className="text-lg">ReactJs</h1>
-            </div>
-            <div className="h-12 w-40 bg-red-100 rounded-full flex justify-center items-center">
-              <h1 className="text-lg">Tailwind Css</h1>
-            </div>
-            <div className="h-12 w-40 bg-green-100 rounded-full flex justify-center items-center">
-              <h1 className="text-lg"> C++</h1>
-            </div>
-          
+          <div className="px-6 bg-blue-100 rounded-full flex justify-center items-center">
+            <h1 className="text-lg">UIKit</h1>
           </div>
-          <div className="flex space-x-4">
-          <div className="h-12 w-40 bg-purple-100 rounded-full flex justify-center items-center">
-              <h1 className="text-lg">Git</h1>
-            </div>
-            <div className="h-12 w-40 bg-orange-100 rounded-full flex justify-center items-center">
-              <h1 className="text-lg">Github</h1>
-            </div>
+          <div className="px-6 bg-red-100 rounded-full flex justify-center items-center">
+            <h1 className="text-lg">Core Data</h1>
           </div>
-      
+          <div className="px-6 bg-green-100 rounded-full flex justify-center items-center">
+            <h1 className="text-lg"> Core Animation</h1>
+          </div>
+        </div>
+        <div className="flex py-2 space-x-3">
+          <div className="px-6 p-2 bg-pink-100 rounded-full flex justify-center items-center">
+            <h1 className="text-lg">Figma</h1>
+          </div>
+          <div className="px-6 bg-blue-100 rounded-full flex justify-center items-center">
+            <h1 className="text-lg">ReactJs</h1>
+          </div>
+          <div className="px-6 bg-red-100 rounded-full flex justify-center items-center">
+            <h1 className="text-lg">Tailwind Css</h1>
+          </div>
+          <div className="px-6 bg-green-100 rounded-full flex justify-center items-center">
+            <h1 className="text-lg"> C++</h1>
+          </div>
+        </div>
+        <div className="flex space-x-4">
+          <div className="px-6 p-2 bg-purple-100 rounded-full flex justify-center items-center">
+            <h1 className="text-lg">Git</h1>
+          </div>
+          <div className="px-6 bg-orange-100 rounded-full flex justify-center items-center">
+            <h1 className="text-lg">Github</h1>
+          </div>
+        </div>
       </div>
       <div className="flex space-x-8 items-center">
         <div className="h-8 w-8 rounded-full bg-green-600 animate-ping flex justify-center items-center">
