@@ -3,10 +3,9 @@
 @tailwind utilities;
 
 
-
 @keyframes slideRight {
   0% {
-    transform: translateX(100%);
+    transform: translateX(0%);
   }
   100% {
     transform: translateX(-100%);
@@ -16,6 +15,7 @@
 .animate-slideRight {
   animation: slideRight 10s alternate infinite;
 }
+
 
 @keyframes slideLeft {
   0% {

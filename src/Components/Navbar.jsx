@@ -7,8 +7,9 @@ const Navbar = () => {
   return (
 
       <div className='bg-white h-16 flex justify-between  items-center'>
-        <div className="logo">
-          Dliver
+        <div className="logo flex space-x-2">
+     <h1>Follow me</h1>
+          <a  className='text-blue-300' href='https://www.twitter.com/pravalgautam001'>@pravalgautam001</a>
         </div>
 
         <div className="navigation flex  space-x-14">

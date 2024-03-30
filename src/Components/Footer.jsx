@@ -6,7 +6,7 @@ const Footer = () => {
       className={`sliding-bar flex justify-center items-center  bg-[#DDFF9C] w-full h-16 overflow-hidden whitespace-nowrap`}
             >
               <h1 className="mx-4 animate-slideRight">
-                <ol className="list-disc flex space-x-10 ">
+                <ol className="list-disc flex space-x-20 ">
                   <li>iOS Development</li>
                   <li>WebApp (Html, TailwindCss)</li>
                   <li>dApps</li>

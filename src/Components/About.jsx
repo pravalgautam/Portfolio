@@ -4,29 +4,68 @@ const About = () => {
   return (
     <div className="text-bold text-3xl p-2">
       <h1>Who am i? </h1>
-      <span className="text-xl">
+      <span className="text-lg sm:text-2xl ">
         Hello, I'm Praval Gautam, a passionate iOS developer with a keen eye for
         detail and a commitment to creating engaging and innovative mobile
         applications. I thrive on turning ideas into reality, combining my
         technical skills with a creative mindset. Explore my portfolio to get a
         glimpse of the projects I've brought to life.
       </span>
-      <span>
-        <ul className="list-disc text-xl p-8">
-          <h2>Technical Skills</h2>
-          <li>Languages: Swift, Solidity</li>
-          <li>Frameworks: SwifUI,UIKit, Core Data, Core Animation</li>
-          <li>Tools: Xcode, Interface Builder, Git</li>
-          <li>Design Patterns: MVC, MVVM</li>
-          <li>API Integration: RESTful,Alomfire</li>
-          <li>Testing: XCTest, UI Testing</li>
-        </ul>
-      </span>
+
+      <div className="flex flex-col p-8">
+        <h1 className="p-4">Technical Skills</h1>
+        <div className="flex space-x-3">
+          <div className="h-12 w-40 bg-red-100 rounded-full flex justify-center items-center animate-bounce">
+            <h1 className="text-lg">Swift</h1>
+          </div>
+          <div className="h-12 w-40 bg-yellow-100 rounded-full flex justify-center items-center rotate-12 ">
+            <h1 className="text-lg">Solidity</h1>
+          </div>
+          <div className="h-12 w-40 bg-pink-100 rounded-full flex justify-center items-center">
+              <h1 className="text-lg">SwifUI</h1>
+            </div>
+            <div className="h-12 w-40 bg-blue-100 rounded-full flex justify-center items-center">
+              <h1 className="text-lg">UIKit</h1>
+            </div>
+            <div className="h-12 w-40 bg-red-100 rounded-full flex justify-center items-center">
+              <h1 className="text-lg">Core Data</h1>
+            </div>
+            <div className="h-12 w-40 bg-green-100 rounded-full flex justify-center items-center">
+              <h1 className="text-lg"> Core Animation</h1>
+            </div>
+          </div>
+          <div className="flex py-2 space-x-3">
+          <div className="h-12 w-40 bg-pink-100 rounded-full flex justify-center items-center">
+              <h1 className="text-lg">Figma</h1>
+            </div>
+            <div className="h-12 w-40 bg-blue-100 rounded-full flex justify-center items-center">
+              <h1 className="text-lg">ReactJs</h1>
+            </div>
+            <div className="h-12 w-40 bg-red-100 rounded-full flex justify-center items-center">
+              <h1 className="text-lg">Tailwind Css</h1>
+            </div>
+            <div className="h-12 w-40 bg-green-100 rounded-full flex justify-center items-center">
+              <h1 className="text-lg"> C++</h1>
+            </div>
+          
+          </div>
+          <div className="flex space-x-4">
+          <div className="h-12 w-40 bg-purple-100 rounded-full flex justify-center items-center">
+              <h1 className="text-lg">Git</h1>
+            </div>
+            <div className="h-12 w-40 bg-orange-100 rounded-full flex justify-center items-center">
+              <h1 className="text-lg">Github</h1>
+            </div>
+          </div>
+      
+      </div>
       <div className="flex space-x-8 items-center">
         <div className="h-8 w-8 rounded-full bg-green-600 animate-ping flex justify-center items-center">
           <div className="h-4 w-4 rounded-full  bg-green-400"></div>
         </div>
-        <h1 className="text-green-400 text-xl">Available for Work </h1>
+        <h1 className="text-green-400 text-lg sm:text-2xl ">
+          Available for Work{" "}
+        </h1>
       </div>
     </div>
   );

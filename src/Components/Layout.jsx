@@ -8,7 +8,7 @@ const Layout = ({children}) => {
     return (
       <div className="MainContainer w-screen h-screen sm:p-28 ">
        
-        <div className="infoContainer   bg-white sm:p-8 p-2 shadow-2xl  overflow-scroll" >
+        <div className="infoContainer bg-white sm:p-8 p-2 shadow-2xl  overflow-scroll" >
         <Fade cascade damping={0.2}>
 
           <Navbar />
