@@ -8,11 +8,11 @@ const Navbar = () => {
 
       <div className='bg-white h-16 flex justify-between  items-center'>
         <div className="logo flex space-x-2">
-     <h1>Follow me</h1>
+    
           <a  className='text-blue-300' href='https://www.twitter.com/pravalgautam001'>@pravalgautam001</a>
         </div>
 
-        <div className="navigation flex  space-x-14">
+        <div className="navigation flex  space-x-2 md:space-x-12">
           <Link to="/" className='text-black font-light hover:text-pink-300'>Home</Link>
           <Link to="/about" className='text-black font-light hover:text-pink-300'>About</Link>
           <Link to="/projects" className='text-black font-light hover:text-pink-300'>Projects</Link>

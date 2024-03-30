@@ -9,7 +9,7 @@ const Home = () => {
         </h1>
       
 
-        <p className=" text-[4rem] mt-10 mb-6">
+        <p className=" text-[1.5rem] mt-10 mb-6">
           I create and design iOS Apps <br></br>and Web Frontend
         </p>
 
