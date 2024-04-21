@@ -3,8 +3,8 @@ import React from "react";
 const About = () => {
   return (
     <div className="text-bold text-3xl overflow-hidden ">
-      <h1 className="text-2xl">Who am I?</h1>
-      <p className="text-base sm:text-lg">
+      <h1 className="text-2xl p-8 pl-40 pr-40">Who am I?</h1>
+      <p className="text-base sm:text-lg p-8 pl-40 pr-40">
         Hello, I'm Praval Gautam, a passionate iOS developer with a keen eye for
         detail and a commitment to creating engaging and innovative mobile
         applications. I thrive on turning ideas into reality, combining my
@@ -12,9 +12,9 @@ const About = () => {
         glimpse of the projects I've brought to life.
       </p>
 
-      <div className="flex flex-col w-full  ">
+      <div className="flex flex-col w-full p-8 pl-40 pr-40 ">
         <h2 className="p-4">Technical Skills</h2>
-        <div className="flex flex-wrap space-x-3 space-y-2">
+        <div className="flex flex-wrap space-x-3 space-y-2 p-8">
           <div className="px-6 py-2 bg-red-100 rounded-full flex justify-center items-center animate-bounce">
             <h2 className="text-lg">Swift</h2>
           </div>
@@ -51,16 +51,12 @@ const About = () => {
           <div className="px-6 py-2 bg-orange-100 rounded-full flex justify-center items-center">
             <h2 className="text-lg">Github</h2>
           </div>
+          <div className="px-6 py-2 bg-orange-100 rounded-full flex justify-center items-center">
+            <h2 className="text-lg">Gitlab</h2>
+          </div>
         </div>
       </div>
-      <div className="flex items-center ml-3">
-        <div className="h-8 w-8 rounded-full bg-green-600 animate-ping flex justify-center items-center">
-          <div className="h-4 w-4 rounded-full bg-green-400"></div>
-        </div>
-        <h2 className="text-green-400 text-lg sm:text-xl p-4">
-          Available for Work
-        </h2>
-      </div>
+
     </div>
   );
 };

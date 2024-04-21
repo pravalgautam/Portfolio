@@ -12,11 +12,6 @@ const Swifting = () => {
       </span>
       <div className="p-10 flex flex-col space-y-20 ">
         <img className="h-180 w-140 " src="s1.png" alt="" />
-        <img className="h-180 w-140  " src="s3.png" alt="" />
-        <img className="h-180 w-140  " src="s4.png" alt="" />
-        <img className="h-180 w-140  " src="s5.png" alt="" />
-        <img className="h-180 w-140  " src="s6.png" alt="" />
-        <img className="h-180 w-140  " src="s2.png" alt="" />
       </div>
    
     </>
