@@ -3,8 +3,8 @@ import React from "react";
 const About = () => {
   return (
     <div className="text-bold text-3xl overflow-hidden ">
-      <h1 className="text-2xl p-8 pl-40 pr-40">Who am I?</h1>
-      <p className="text-base sm:text-lg p-8 pl-40 pr-40">
+      <h1 className="text-2xl ">Who am I?</h1>
+      <p className="text-base sm:text-lg">
         Hello, I'm Praval Gautam, a passionate iOS developer with a keen eye for
         detail and a commitment to creating engaging and innovative mobile
         applications. I thrive on turning ideas into reality, combining my
@@ -12,7 +12,7 @@ const About = () => {
         glimpse of the projects I've brought to life.
       </p>
 
-      <div className="flex flex-col w-full p-8 pl-40 pr-40 ">
+      <div className="flex flex-col w-full  ">
         <h2 className="p-4">Technical Skills</h2>
         <div className="flex flex-wrap space-x-3 space-y-2 p-8">
           <div className="px-6 py-2 bg-red-100 rounded-full flex justify-center items-center animate-bounce">
